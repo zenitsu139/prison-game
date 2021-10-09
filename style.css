@@ -1,0 +1,314 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: hidden;
+	font: 30px sans-serif;
+}
+body{
+	background: #232123;
+	background-attachment: fixed;
+	color: white;
+}
+.starter{
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 22%;
+	width: 600px;
+}
+.starter h1{
+	font-size: 50px;
+	position: absolute;
+	top: -200%;
+}
+.starter button{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	right: 52%;
+	margin: 40px 0 0 0;
+}
+.starter input{
+	width: 400px;
+	height: 50px;
+}
+.container{
+	margin: auto;
+	display: none;
+}
+.info{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.tool{
+	position: absolute;
+	left: 0;
+	top: 250px;
+}
+.highest-score{
+	position: absolute;
+	top: 300px;
+	right: 0;
+}
+.reset{
+	position: absolute;
+	top: 500px;
+	left: 40%;
+}
+.field{
+	border: 1px solid;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	right: 39%;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+}
+
+
+.shop-menu{
+	border: 1px solid;
+	min-width: 400px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	right: 29%;
+	padding: 10px;
+	z-index: 200;
+	background: #232123;
+	opacity: 0;
+	display: none;
+}
+.buy{
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
+}
+
+.close1{
+	width: 100%;
+	background: red;
+}
+.scroll{
+	outline: scroll;
+}
+
+.transfer{
+	width: 100%;
+}
+.open{
+	animation: shop-transition 1s;
+}
+.close{
+	animation: shop-transition2 1s;
+}
+.price{
+	color: yellow;
+	position: absolute;
+	right: 70px;
+}
+.toolImg{
+	width: 45px;
+	height: 45px;
+}
+/*sus*/
+@keyframes shop-transition{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes shop-transition2{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+.f{
+	animation: sus 2s infinite;
+}
+.sad{
+	position: absolute;
+	top: 0;
+	right: 43%;
+}
+.text1{
+	margin-bottom: -10px;
+}
+
+@keyframes sus{
+	0%{
+		color: yellow;
+	}
+	10%{
+		color: orange;
+	}
+	20%{
+		color: red;
+	}
+	50%{
+		color: blue;
+	}
+	70%{
+		color: greem;
+	}
+	100%{
+		color: pink;
+	}
+}
+
+
+
+.fields-menu{
+	border: 1px solid;
+	min-width: 800px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	right: 20%;
+	padding: 10px;
+	z-index: 100;
+	background: #232123;
+	opacity: 0;
+	display: none;
+}
+.closee{
+	margin: 0;
+	background: red;
+	width: 100%;
+}
+.fields-menu img{
+	width: 200px;
+	height: 200px;
+}
+.buyy{
+	float: right;
+	width: 200px;
+	height: 200px;
+}
+.testt{
+	/*margin-right: 55px;*/
+}
+.fields-menu h3{
+	float: right;
+}
+.pricee{
+	color: white;
+	float: right;
+	background: orange;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+.pricee p{
+	margin-top: 70px;
+}
+
+.img1{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: -230%;
+	left: -60%;
+}
+.img2{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: -230%;
+	left: 75%;
+}
+
+.tool{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 7px;
+	min-width: 240px;
+	min-height: 250px;
+	width: auto;
+	height: auto;
+}
+.tool-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid;
+	border-width: 100%;
+	text-align: center;
+	width: 100%;
+}
+.tool1{
+	position: absolute;
+	top: 195px;
+	left: 0;
+	text-align: center;
+	padding: 5px;
+	border-top: 1px solid;
+	width: 100%;
+}
+.toolImgg{
+	margin-top: 30px;
+	width: 160px;
+	height: 160px;
+	margin-left: 40px;
+}
+.scores{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 7px;
+	min-width: 240px;
+	min-height: 250px;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 250px;
+	right: 0;
+}
+.score-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid;
+	border-width: 100%;
+	text-align: center;
+	width: 100%;
+}
+.scores img{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+.top3{
+	margin-top: 30px;
+	width: 160px;
+	height: 160px;
+}
+.listBtn{
+	width: 100%;
+}
+
+
+.secret-code{
+	display: none;
+	position: absolute;
+	top: 40%;
+	right: 39%;
+}
+.submit-code{
+	margin-left: 100px;
+}
+.exit-code{
+	margin-left: 150px;
+}
+
+
